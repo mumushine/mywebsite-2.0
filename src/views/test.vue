@@ -15,8 +15,7 @@ export default {
   methods: {
     axiostest() {
       this.$axios
-        .post("/api/selectallcomment", {
-        })
+        .post("/api/selectallcomment", {})
         .then(res => {
           console.log(res);
         })
