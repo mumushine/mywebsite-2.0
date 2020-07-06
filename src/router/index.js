@@ -11,6 +11,7 @@ import cover from '@/views/cover'
 import dayily from '@/views/views2/dayily'
 import growth from '@/views/views2/growth'
 import unilife from '@/views/views2/unilife'
+import myInfo from '@/views/myInfo'
 
 
 Vue.use(Router)
@@ -47,6 +48,11 @@ export default new Router({
       path: '/mylife',
       name: 'mylife',
       component: mylife
+    },
+    {
+      path: '/myInfo',
+      name: 'myInfo',
+      component: myInfo
     },
     {
       path: '/myblogs',
