@@ -1,7 +1,7 @@
 <template>
   <div id="max">
     <nav v-bind:class="active">
-      <img id="logo" src="../assets/mumu.png" alt="/" height="90px" width="200px" />
+      <img id="logo" src="@/assets/mumu.png" alt="/" height="90px" width="200px" />
       <router-link
         to="/index"
         class="home"

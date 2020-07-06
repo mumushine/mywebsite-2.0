@@ -24,7 +24,7 @@
         <br />小吴，请务必加油!
         <br />
       </p>
-      <img src="../assets/mine/m6.jpeg" alt />
+      <img src="@/assets/mine/m6.jpeg" alt />
     </div>
     <div id="right">
       <v-showme></v-showme>
@@ -37,10 +37,10 @@
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import ShowBox from "../components/ShowBox.vue";
-import Bottom from "../components/Bottom.vue";
-import Contact from "../components/Contacter.vue";
+import Header from "@/components/Header.vue";
+import ShowBox from "@/components/ShowBox.vue";
+import Bottom from "@/components/Bottom.vue";
+import Contact from "@/components/Contacter.vue";
 export default {
   data() {
     return {

@@ -4,7 +4,7 @@
     <div>
       <div id="left">
         <div id="left_top">
-          <img src="../assets/mine/m6.jpeg" alt />
+          <img src="@/assets/mine/m6.jpeg" alt />
           <p>
             自闭菜鸟小吴的博客
             <br />码龄： 3年
@@ -67,8 +67,8 @@
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import Bottom from "../components/Bottom";
+import Header from "@/components/Header.vue";
+import Bottom from "@/components/Bottom";
 export default {
   data() {
     return {

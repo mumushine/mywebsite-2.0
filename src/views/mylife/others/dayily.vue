@@ -1,12 +1,12 @@
 <template>
     <div>
-         <v-header></v-header>
-        这里是大学生活页面
+        <v-header></v-header>
+        这里是日常页面
     </div>
     
 </template>
 <script>
-import Header from '../../components/Header.vue';
+import Header from '@/components/Header.vue';
 export default {
     data(){
       

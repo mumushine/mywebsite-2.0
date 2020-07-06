@@ -2,7 +2,7 @@
   <div id="div2">
     <div>
       站长微信
-      <img class="mine" src="../assets/mywechat.jpeg" />
+      <img class="mine" src="@/assets/mywechat.jpeg" />
     </div>
   </div>
 </template>

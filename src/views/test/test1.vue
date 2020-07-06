@@ -73,11 +73,11 @@
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import Slider from "../components/slidertest.vue";
+import Header from "@/components/Header.vue";
+import Slider from "@/components/slidertest.vue";
 import axios from "axios";
-import Dialog from "../components/Dialog.vue";
-import headtest from "../components/headtest";
+import Dialog from "@/components/Dialog.vue";
+import headtest from "@/components/headtest";
 
 export default {
   data() {
@@ -86,10 +86,10 @@ export default {
       weather: [],
       retuenlist: [],
       imgArray: [
-        { imgsrc: require("../assets/pan1.jpeg") },
-        { imgsrc: require("../assets/shuaige.jpeg") },
-        { imgsrc: require("../assets/fengjing.jpg") },
-        { imgsrc: require("../assets/family.jpg") }
+        { imgsrc: require("@/assets/pan1.jpeg") },
+        { imgsrc: require("@/assets/shuaige.jpeg") },
+        { imgsrc: require("@/assets/fengjing.jpg") },
+        { imgsrc: require("@/assets/family.jpg") }
       ],
       data: "我是父组件信息",
       sendVal: false,

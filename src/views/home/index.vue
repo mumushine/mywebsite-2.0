@@ -5,7 +5,7 @@
     <div id="left">
       <span>WELCOME TO MY WORLD</span>
       <br />
-      <img src="../assets/desk.jpeg" alt />
+      <img src="@/assets/desk.jpeg" alt />
       <br />
       <p>OR AT LEAST MY WEBSITE</p>
       <p id="abstract">
@@ -24,10 +24,10 @@
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import ShowBox from "../components/ShowBox.vue";
-import Bottom from "../components/Bottom.vue";
-import Contact from "../components/Contacter.vue";
+import Header from "@/components/Header.vue";
+import ShowBox from "@/components/ShowBox.vue";
+import Bottom from "@/components/Bottom.vue";
+import Contact from "@/components/Contacter.vue";
 export default {
   data() {
     return {};

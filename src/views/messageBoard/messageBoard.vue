@@ -22,7 +22,7 @@
       <v-header></v-header>
       <div id="head">
         <div id="head_img">
-          <img src="../assets/logo.jpeg" style="width: 126px;height: 126px;" />
+          <img src="@/assets/logo.jpeg" style="width: 126px;height: 126px;" />
         </div>
         <div id="head_detail">
           <h1>Breaking.X</h1>
@@ -86,10 +86,10 @@
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import Bootpage from "../components/Bootpage";
+import Header from "@/components/Header.vue";
+import Bootpage from "@/components/Bootpage";
 import axios from "axios";
-import Dialog from "../components/Dialog";
+import Dialog from "@/components/Dialog";
 export default {
   data() {
     return {

@@ -44,11 +44,11 @@
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import ShowBox from "../components/ShowBox.vue";
-import Catalog from "../components/Catalog.vue";
-import Bottom from "../components/Bottom.vue";
-import Contact from "../components/Contacter.vue";
+import Header from "@/components/Header.vue";
+import ShowBox from "@/components/ShowBox.vue";
+import Catalog from "@/components/Catalog.vue";
+import Bottom from "@/components/Bottom.vue";
+import Contact from "@/components/Contacter.vue";
 export default {
   data() {
     return {
