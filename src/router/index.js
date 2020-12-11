@@ -12,6 +12,7 @@ import dayily from '@/views/mylife/others/dayily'
 import growth from '@/views/mylife/others/growth'
 import unilife from '@/views/mylife/others/unilife'
 import myInfo from '@/views/myinfo/myInfo'
+import login from '@/views/login/login'
 
 
 Vue.use(Router)
@@ -78,6 +79,11 @@ export default new Router({
       path: '/growth',
       name: 'growth',
       component: growth
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: login
     }
   ]
 })
