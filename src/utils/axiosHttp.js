@@ -67,6 +67,21 @@ const config = {
 };
 // export config;
  const axiosHttp = axios.create(config);
+
+ axios.interceptors.request.use(function (config) {
+    let token = window.localStorage.getItem("Authorization")
+     token = eval('(' + token + ')');
+      console.log(token)
+    if (token) {
+        config.headers.token = token;    //将token放到请求头发送给服务器
+        //这里经常搭配token使用，将token值配置到tokenkey中，将tokenkey放在请求头中 // config.headers['token'] = Token;
+　　　　//config.headers.token的token是需要和后台定义叫什么的，我这里定义叫token了
+
+    }
+    return config;
+}, function (error) {
+    return Promise.reject(error);
+});
 // // 请求拦截器
 // axiosHttp.interceptors.request.use(config => {
 //     if (config.method != "get" 
